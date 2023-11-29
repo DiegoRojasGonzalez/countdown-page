@@ -7,7 +7,7 @@ var secondsDisplay = document.getElementById('seconds');
 // Function to calculate the remaining time until the 30th of the current month
 function calculateTimeRemaining() {
     var now = new Date();
-    var endOfMonth = new Date(now.getFullYear(), now.getMonth(), 30);
+    var endOfMonth = new Date(now.getFullYear(), 11, 5, 12);
 
     // Calculate the difference in milliseconds
     var difference = endOfMonth - now;
